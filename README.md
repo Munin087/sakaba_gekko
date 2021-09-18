@@ -26,7 +26,7 @@ $ echo '某所でコピーした文字列' | > kagu_export_data.txt<br>
 * ここからgitの操作<br>
 1. cd ディレクトリ名<br>
 2. git add .<br>
-3. git commit -m $(LANG=C date +%F_%T_%Z) <br>
+3. git commit -m "変更した処へのコミットメッセージ $(LANG=C date +%F_%T_%Z)" <br>
 4. git push origin ブランチ名 <br>
 <br>
 ## その他<br>
